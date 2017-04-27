@@ -1,0 +1,41 @@
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+}
+a {
+	cursor: pointer;
+}
+
+header {
+	text-align: right;
+}
+
+header a i {
+	padding: 6px;
+}
+.nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 80px;
+	background: #1A1A1A;
+	padding: 0;
+	margin: 0;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li{
+	width: 80px;
+	height: 80px;
+	background: #1D2627;
+	border-top: 1px solid #aaa;
+}
+.nav ul li a{
+	display: block;
+	margin-top: 18px;
+  	text-align: center;
+  	font-size: 2.5em;
+  	color: #fff;
+}
